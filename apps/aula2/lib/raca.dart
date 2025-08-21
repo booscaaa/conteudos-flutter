@@ -1,8 +1,9 @@
 class Raca {
   String? nome;
   String? descricao;
+  String? imagem;
 
-  Raca({this.nome, this.descricao});
+  Raca({this.nome, this.descricao, this.imagem});
 
   static Raca fromJson(Map<String, dynamic> json) {
     return Raca(
