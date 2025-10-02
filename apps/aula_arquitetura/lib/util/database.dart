@@ -1,5 +1,7 @@
 import 'package:aula_arquitetura/module/dashboard/core/domain/model/pessoa.dart';
+import 'package:injectable/injectable.dart';
 
+@singleton
 class Database {
   final List<Pessoa> _pessoas = [
     Pessoa(nome: "Vinícius", sobrenome: "Boscardin", cpf: "000.000.000-00"),

@@ -1,7 +1,9 @@
+import 'package:aula_arquitetura/core/injection.dart';
 import 'package:aula_arquitetura/module/dashboard/view/dashboard.dart';
 import 'package:flutter/material.dart';
 
 void main() {
+  configureDependencies();
   runApp(const MyApp());
 }
 
